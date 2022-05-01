@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const Home: NextPage = () => {
   return (
-    <div className="">
+    <div className="bg-black h-screen overflow-hidden">
       
       <main>
         <Sidebar></Sidebar>
