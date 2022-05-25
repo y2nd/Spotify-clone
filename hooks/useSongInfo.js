@@ -5,7 +5,7 @@ import {currentTrackIdState} from '../atoms/songAtom';
 
 function useSongInfo() {
     const spotifyApi = useSpotify();
-    const [currentTrackId, setCurrentTrackId] = useRecoilState(currentTrackIdState); 
+    // const [currentTrackId, setCurrentTrackId] = useRecoilState(currentTrackIdState); 
     const [songInfo, setSongInfo] = useState(null);
     
     useEffect( () => {
@@ -24,7 +24,7 @@ function useSongInfo() {
             }   
         }
 
-    }, [currentTrackId, spotifyApi]);
+    }, [/* currentTrackId, */ spotifyApi]);
 
   return songInfo;
 }
