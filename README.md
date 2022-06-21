@@ -13,6 +13,13 @@ JWT_SECRET=
 
 ```
 
+# Install:
+Install dependecies using the following command:
+
+```
+npm i
+```
+
 # Run
 Run with the following command: 
 ```npm run dev```
