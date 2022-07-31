@@ -3,7 +3,7 @@ A web app Spotify clone I built as part of my training to learn Nextjs. Not fini
 Overall the app works just fine, it plays music and it successfully authenticates the user using their Spotify crendentials.
 
 # Local Use:
-Before launching the app you have to define some environment variables in an .env file at root directory: 
+Before launching the app you have to define some environment variables in an .env file at the root directory of the project: 
 
 ```
 NEXTAUTH_URL=http://localhost/3000
